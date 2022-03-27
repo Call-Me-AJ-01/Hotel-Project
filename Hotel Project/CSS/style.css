@@ -1,0 +1,343 @@
+/* common settings */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,h2,h3{
+    padding: 20px;
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.clr{
+    clear: both;
+}
+/* navigation bar */
+#nav-bar{
+    background-color: #333;
+}
+.container{
+    margin: auto;
+    text-align: center;
+    max-width: 1100px;
+    overflow: auto;
+}
+
+#nav-bar h1{
+    padding-left: 20px;
+    float: left;
+}
+
+#nav-bar a,
+#section-1 .container #button-section-1 a{
+    color: white;
+    text-decoration: none;
+}
+
+#nav-bar ul{
+    list-style: none;
+    float: right;
+}
+
+#nav-bar ul li{
+    float: left;
+}
+
+#nav-bar ul li a{
+    display: block;
+    padding: 25px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#nav-bar ul li a:hover,
+#nav-bar ul li a.logo{
+    background-color: #444;
+    color: #f7c08a;
+}
+
+/* section-1 */
+#section-1{
+    background-image: url('../image_resources/showcase.jpg  ');
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#yellow-color{
+    color: #f4c08a;
+}
+
+#section-1 .container h1{
+    font-size: 60px;
+    padding-top: 170px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+#section-1 .container p{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#section-1 .container #button-section-1 a{
+    background: #333;
+    padding: 15px;
+}
+#section-1 .container #button-section-1 a:hover{
+    background: #f4c08a;
+    color: black;
+}
+
+/* section-2 */
+.container-2{
+    height: 400px;
+    overflow: hidden;
+}
+
+.container-2 #hotel_image{
+    float: left;
+    height: 100%;
+    width: 50%;
+    background: url('../image_resources/photo-1.jpg') no-repeat;
+}
+
+#hotel-history{
+    background-color: #333;
+    height: 400px;
+    float: right;
+    width: 50%;
+}
+
+#hotel-history h3{
+    font-size: 25px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#hotel-history p{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    line-height: 1.7em;
+}
+
+#button-hotel-history a{
+    text-decoration: none;
+    color: black;
+    background: white;
+    height: 100%;
+    padding: 18px 20px;
+    font-size: 18px;
+}
+
+#button-hotel-history a:hover{
+    background-color: #f4c48a;
+}
+
+/* section-3 */
+.container-3{
+    height: 250x;
+    overflow: hidden;
+}
+
+.meals-color{
+    background-color: #f4c48a;
+    padding-bottom: 80px;
+}
+
+#box h3{
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+#box p{
+    color: black;
+    padding: 0px;
+}
+
+#box{
+    float: left;
+    text-align: center;
+    width: 33.3%;
+}
+
+#space{
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+/* footer */
+.footer{
+    background-color: rgb(70, 66, 66);
+    text-align: center;
+}
+
+.footer p{
+    padding: 30px;
+}
+
+/* About Page */
+
+.about-container-1{
+    height: 300px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.about-container-1 p{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    line-height: 1.7em;
+    color: black;
+}
+
+.about-container-1 h1{
+    color: rgb(31, 28, 28);
+    font-size: 40px;
+}
+
+#about-intro{
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+
+#img{
+    float: right;
+    padding-top: 20px;
+    padding-left: 20px;
+    max-height: 100%;
+    max-width: 50%;
+    border-radius: 50%;
+}
+
+.about-container-2{
+    margin-top: 30px;
+    height: 100%;
+    background: url('/Hotel Project/image_resources/test-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.guest-info-heading{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 100px;
+}
+
+#about-box{
+    max-width: 1050px;
+    background: #f4c08a;
+    min-height: 100px;
+    max-height: 600px;
+    margin: auto;
+    border-radius: .7em;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+#about-img img{
+    padding: 20px 20px;
+    border-radius: 50%;
+    width: 100px;
+}
+
+#about-box img{
+    float: left;
+    height: 100%;
+}
+
+#about-box p{
+    text-align: center;
+    padding-top: 30px;
+    color: black;
+    line-height: 1.7em;
+    padding-bottom: 20px;
+}
+
+/* contact page */
+
+.contact_container{
+    max-width: 1100px;
+    height: 650px;
+    margin: auto;
+    padding-left: 20px;
+}
+
+.contact_container h1,
+.contact_container h3,
+.contact_container p{
+    color: black;
+}
+
+#heading{
+    font-size: 40px;
+    color: #333;
+}
+
+#lab{
+    margin-bottom: 20px;
+}
+
+#lab label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact_container #lab input,
+.contact_container #lab textarea,
+.contact #lab input,
+.contact #lab textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+
+.contact_container #lab input:focus,
+.contact_container #lab textarea:focus{
+    outline: none;
+    border-color: #f7c08a;
+}
+
+.contact-button{
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: rgb(41, 39, 39);
+    color: white;
+}
+
+#contact-box{
+    width: 100%;
+    height:174px;
+    background: #333;
+}
+
+#footer-box{
+    width: 33.3%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+
+#footer-image-1{
+    margin:auto;
+    padding: 20px;
+    padding-bottom: 0px;
+    width: 50px;
+
+}
